@@ -1,5 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: white;
+}
+
+.App {
+  background-color: white;
+  max-width: 992px;
+  margin: 10px auto;
+}
+
+/*.nav-elements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}*/
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.headline-news {
+  max-width: 992px;
+  display: flex;
+  margin: 40px 0px;
+}
+
+.headline-text {
+  margin-right: 60px;
+}
+
+.headline-image {
+  /*background-color: blue;*/
+  background: url(/images/medium-image.png) no-repeat center center ;
+  background-size: cover;
+  width: 540px;
+  margin-top: 40px;
+  /*width: auto;
+  max-height: 488px;*/
+}
+
+
+h1 {
+  font-size: 42px;
+  font-size: Lora;
+  padding: 0px 0px 25px 0px;
+}
+
+h5 {
+  padding-top: 0px;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-left{
+  width: 488px;
+  display: flex;
+  height: 255px;
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  margin: 8px 8px 8px 0px;
+}
+
+.news-right{
+  width: 488px;
+  display: flex;
+  height: 255px;
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  margin: 8px 0px 8px 8px;
+}
+
+.news{
+  width: 488px;
+  display: flex;
+  height: 255px;
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.news-piece{
+  width: 288px;
+  flex-grow: 1;
+  padding: 16px;
+}
+
+
+
+.image-puff-1 {
+  background-image: url(/images/medium-image-puff-1.jpeg);
+}
+
+.image-puff-2 {
+  background-image: url(/images/medium-image-puff-2.png);
+}
+
+.image-puff-3 {
+  background-image: url(/images/medium-image-puff-3.png);
+}
+
+.image-puff-4 {
+  background-image: url(/images/medium-image-puff-4.jpeg);
+}
+
+.news-image {
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h2 {
+  font: Lucida Grande;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  font: Lucida Grande;
+  font-size: 12px;
 }
