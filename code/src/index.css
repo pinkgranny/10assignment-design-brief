@@ -105,7 +105,12 @@ h5 {
   padding: 16px;
 }
 
-
+.author-pic {
+  background-image: url(/images/writer-1.png);
+  border-radius: 50%;
+  width: 100px;
+  background-size: cover;
+}
 
 .image-puff-1 {
   background-image: url(/images/medium-image-puff-1.jpeg);

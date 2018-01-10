@@ -42,6 +42,8 @@ class App extends React.Component {
               <div className="news-piece">
                   <h2>The Boy Who Tamed the Sea</h2>
                   <p>At 5:30 am, on any morning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
+                  <div className="author-pic">
+                  </div>
               </div>
           </div>
 
